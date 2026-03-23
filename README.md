@@ -17,7 +17,6 @@ A modern, creative, **anti-gravity themed** portfolio website showcasing my jour
 
 | Feature | Description |
 |---------|-------------|
-| 🎨 **Anti-Gravity UI** | Floating cards, subtle levitation animations, and smooth scroll effects |
 | 🌓 **Dark / Light Mode** | Theme toggle with localStorage persistence — your preference is remembered |
 | 💬 **Portfolio Chatbot** | Floating AI assistant that answers questions about skills, projects, education & more |
 | 🔮 **Glassmorphism** | Frosted glass cards with backdrop blur and soft borders |
