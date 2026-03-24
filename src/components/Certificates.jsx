@@ -8,19 +8,19 @@ const certificates = [
         title: 'Master Generative AI & Tools',
         platform: 'Online Certification',
         date: 'Aug 2025',
-        link: '#',
+        link: 'https://drive.google.com/file/d/1ZiWDWujF2bOo86QYXGqJ7o4yGpfJ5jFk/view',
     },
     {
         title: 'Full Stack Development in React & Node',
         platform: 'Online Certification',
         date: 'June 2025',
-        link: '#',
+        link: 'https://drive.google.com/file/d/1GsKuIQqx71wps4LFy5Q_yurL90ERu2Jk/view',
     },
     {
         title: 'Responsive Web Design',
         platform: 'Online Certification',
         date: 'Nov 2023',
-        link: '#',
+        link: 'https://drive.google.com/file/d/1l6z0-Vfo1su0M0YvXZlK8HnXl8wzd3ov/view',
     },
 ];
 
