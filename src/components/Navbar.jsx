@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { HiMenu, HiX } from 'react-icons/hi';
+import { HiMenu, HiX, HiDownload } from 'react-icons/hi';
 import { FiSun, FiMoon } from 'react-icons/fi';
 import { useTheme } from '../context/ThemeContext';
 
@@ -55,6 +55,16 @@ const Navbar = () => {
                             </a>
                         ))}
 
+                        {/* CV Download */}
+                        <a
+                            href="/updated cv.pdf"
+                            download
+                            className="ml-1 px-3 py-2 text-sm font-semibold text-white bg-gradient-to-r from-primary to-purple-500 rounded-lg hover:shadow-lg hover:shadow-primary/25 hover:scale-105 transition-all duration-300 flex items-center gap-1.5"
+                        >
+                            <HiDownload size={15} />
+                            CV
+                        </a>
+
                         {/* Theme toggle */}
                         <button
                             onClick={toggle}
@@ -104,6 +114,15 @@ const Navbar = () => {
                                     {link.name}
                                 </a>
                             ))}
+                            <a
+                                href="/updated cv.pdf"
+                                download
+                                onClick={() => setMenuOpen(false)}
+                                className="flex items-center gap-2 px-3 py-2 text-sm font-semibold text-white bg-gradient-to-r from-primary to-purple-500 rounded-lg hover:shadow-lg transition-all mt-2"
+                            >
+                                <HiDownload size={15} />
+                                Download CV
+                            </a>
                         </div>
                     </motion.div>
                 )}
